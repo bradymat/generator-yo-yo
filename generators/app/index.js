@@ -7,13 +7,13 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the unreal ' + chalk.red('generator-yo-yo') + ' generator!'
+      'Welcome to the unreal yo-yo generator!'
     ));
 
     var prompts = [{
       type: 'confirm',
       name: 'someAnswer',
-      message: 'Would you like to enable this option?',
+      message: 'Lets go?',
       default: true
     }];
 
